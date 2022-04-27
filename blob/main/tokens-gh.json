@@ -257,6 +257,10 @@
     "2px": {
       "value": "2px",
       "type": "borderWidth"
+    },
+    "mega3": {
+      "value": "333px",
+      "type": "spacing"
     }
   }
 }
