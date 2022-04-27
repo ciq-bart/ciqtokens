@@ -138,15 +138,15 @@
       },
       "type": "typography"
     },
-    "avatarize-it": {
-      "value": "100px",
+    "48px": {
+      "value": "48px",
       "type": "borderRadius"
     },
     "tiny-4px": {
       "value": "4px",
       "type": "spacing"
     },
-    "gallerize-it": {
+    "8px": {
       "value": "8px",
       "type": "borderRadius"
     },
@@ -166,9 +166,20 @@
       "value": "84px",
       "type": "spacing"
     },
-    "Table": {
+    "1px": {
       "value": "1px",
       "type": "borderWidth"
+    },
+    "Default": {
+      "value": {
+        "x": "0",
+        "y": "4",
+        "blur": "2",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.05)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     },
     "Card": {
       "value": {
@@ -181,20 +192,9 @@
       },
       "type": "boxShadow"
     },
-    "cards": {
+    "4px": {
       "value": "4px",
       "type": "borderRadius"
-    },
-    "Default": {
-      "value": {
-        "x": "0",
-        "y": "4",
-        "blur": "2",
-        "spread": "0",
-        "color": "#000000",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
     },
     "Hover": {
       "value": {
@@ -213,7 +213,7 @@
         "y": "1",
         "blur": "10",
         "spread": "0",
-        "color": "#000000",
+        "color": "rgba(0,0,0,0.15)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -254,9 +254,9 @@
       "value": "4%",
       "type": "opacity"
     },
-    "mega": {
-      "value": "444px",
-      "type": "spacing"
+    "2px": {
+      "value": "2px",
+      "type": "borderWidth"
     }
   }
 }
