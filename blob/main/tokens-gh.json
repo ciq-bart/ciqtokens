@@ -253,6 +253,10 @@
     "4%": {
       "value": "4%",
       "type": "opacity"
+    },
+    "mega": {
+      "value": "444px",
+      "type": "spacing"
     }
   }
 }
