@@ -1,33 +1,5 @@
 {
   "bartki": {
-    "avatar": {
-      "value": "120px",
-      "type": "sizing"
-    },
-    "cover-width": {
-      "value": "400px",
-      "type": "sizing"
-    },
-    "cover-height": {
-      "value": "224px",
-      "type": "sizing"
-    },
-    "icons-not-ideal": {
-      "value": "31.5px",
-      "type": "sizing"
-    },
-    "full-width": {
-      "value": "400px",
-      "type": "sizing"
-    },
-    "gallery-width": {
-      "value": "200px",
-      "type": "sizing"
-    },
-    "gallery-height": {
-      "value": "304px",
-      "type": "sizing"
-    },
     "gutter": {
       "value": "32px",
       "type": "spacing"
@@ -64,53 +36,83 @@
       "value": "1px",
       "type": "borderWidth"
     },
-    "Default": {
-      "value": {
-        "x": "0",
-        "y": "4",
-        "blur": "2",
-        "spread": "0",
-        "color": "rgba(0,0,0,0.05)",
-        "type": "dropShadow"
+    "Shadow": {
+      "--shadow-default": {
+        "value": {
+          "x": "0",
+          "y": "4",
+          "blur": "2",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.05)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Shadow/Default"
       },
-      "type": "boxShadow"
-    },
-    "Card": {
-      "value": {
-        "x": "2",
-        "y": "4",
-        "blur": "10",
-        "spread": "0",
-        "color": "#000000,0.5",
-        "type": "dropShadow"
+      "--shadow-card": {
+        "value": {
+          "x": "2",
+          "y": "4",
+          "blur": "10",
+          "spread": "0",
+          "color": "#000000,0.5",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Shadow/Card"
       },
-      "type": "boxShadow"
+      "--shadow-card-xl": {
+        "value": {
+          "x": "0",
+          "y": "3",
+          "blur": "15",
+          "spread": "0",
+          "color": "#000000,0.05",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Shadow/Card (XL)"
+      },
+      "--shadow-hover": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "12",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.2)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Shadow/Hover"
+      },
+      "--shadow-modal": {
+        "value": {
+          "x": "0",
+          "y": "1",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.15)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Shadow/Modal"
+      },
+      "--shadow-menu": {
+        "value": {
+          "x": "2",
+          "y": "2",
+          "blur": "4",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.15)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Shadow/Menu"
+      }
     },
     "4px": {
       "value": "4px",
       "type": "borderRadius"
-    },
-    "Hover": {
-      "value": {
-        "x": "0",
-        "y": "2",
-        "blur": "12",
-        "spread": "0",
-        "color": "rgba(0,0,0,0.2)",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
-    },
-    "Modal": {
-      "value": {
-        "x": "0",
-        "y": "1",
-        "blur": "10",
-        "spread": "0",
-        "color": "rgba(0,0,0,0.15)",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
     },
     "100%": {
       "value": "100%",
@@ -151,10 +153,6 @@
     "2px": {
       "value": "2px",
       "type": "borderWidth"
-    },
-    "mega3": {
-      "value": "333px",
-      "type": "spacing"
     },
     "Primary": {
       "--primary-blue": {
