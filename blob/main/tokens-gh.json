@@ -1,8 +1,9 @@
 {
   "bartki": {
-    "gutter": {
-      "value": "32px",
-      "type": "spacing"
+    "gutter-16px": {
+      "value": "16px",
+      "type": "spacing",
+      "description": "--spacer-gutter"
     },
     "48px": {
       "value": "48px",
@@ -10,27 +11,32 @@
     },
     "tiny-4px": {
       "value": "4px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "--spacer-tiny"
     },
     "8px": {
       "value": "8px",
       "type": "borderRadius"
     },
-    "small": {
+    "small-8px": {
       "value": "8px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "--spacer-small"
     },
-    "medium": {
+    "medium-24px": {
       "value": "24px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "--spacer-medium"
     },
-    "large": {
+    "large-48px": {
       "value": "48px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "--spacer-large"
     },
-    "xtra large": {
+    "xtra-84px": {
       "value": "84px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "--spacer-xtra"
     },
     "1px": {
       "value": "1px",
@@ -536,5 +542,6 @@
         "description": "font-size: 0.875rem; line-height: 1.25rem; text-decoration: uppercase"
       }
     }
-  }
+  },
+  "$themes": []
 }
